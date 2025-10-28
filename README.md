@@ -1,5 +1,5 @@
 ## Advanced Machine Learning - Easy Visa Project
-### Easy Visa Immigration - Processing Model
+### Easy Visa - Immigration Processing Model
 - Class: Advanced Machine Learning:
 - Name: Daniel Levenstein
 - Submission Date: 10/25/2025
@@ -26,7 +26,7 @@ Model development was completed in three stages.
 2. Over-Sampled Models: I applied oversampling to address class imbalance and retrained the same five models, again retaining the best results.
 3. Under-Sampled Models: I repeated the process with under-sampled data and compared performance across all sections.
 
-After evaluating all models, I identified which were overfit and which generalized well. The strongest performers were the Gradient Boosting model on the over-sampled data and the AdaBoost model on the original dataset.
+After evaluating al models, I identified which were overfit and which generalized well. The strongest performers were the Gradient Boosting model on the over-sampled data and the AdaBoost model on the original dataset.
 
 ## Model Tuning:
 I conducted two rounds of hyperparameter tuning. In the first round, I adjusted parameters manually to reduce overfitting and achieve balanced performance across models. In the second round, I performed a formal grid search on the top-performing model to further optimize its accuracy and efficiency.
